@@ -1,0 +1,59 @@
+// Place all the styles related to the Users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import 'bootstrap';
+@import 'bootstrap/theme';
+
+$linkColor: #cccccc;
+$bgcolor: #77A1A6;
+
+body {
+	background-color: $bgcolor;
+}
+
+.container {
+	
+	padding-top: 60px;
+	a {
+		color: $linkColor;
+	}
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0 5px;
+}
+
+thead th {
+  background-color: #033859;
+  color: white;
+}
+
+tbody td {
+  background-color: #EEEEEE;
+}
+
+tr td:first-child,
+tr th:first-child {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+tr td:last-child,
+tr th:last-child {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.navbar {
+	navbar-default-bg:#033859; 
+}
+
+.footer {
+	margin-left: 80px;
+	margin-top: 50px;
+	color: $gray;
+	a {
+		color: $gray;
+	}
+}
